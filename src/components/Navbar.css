@@ -1,0 +1,84 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background-color: #f6e9e6;
+}
+
+.navbar img {
+  width: 200px;
+  padding-right: 50px;
+}
+
+.navbar a {
+  color: #996344;
+  text-decoration: none;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.navbar .leftSide {
+  height: 100%;
+  display: flex;
+  flex: 25%;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.navbar .rightSide {
+  height: 100%;
+  display: flex;
+  flex: 75%;
+  align-items: center;
+  justify-content: left;
+}
+
+/* 
+https://www.youtube.com/watch?v=QwarZBtFoFA
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+  color: #5e949d;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+.navbar #open img {
+  display: none;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+} */
