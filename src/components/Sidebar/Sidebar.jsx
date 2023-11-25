@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./Sidebar.css";
 import Logo from "../../assets/simpleLogo.png";
 import HomeImage from "../../assets/home.png";
+import SettingsImage from "../../assets/settings.png";
 import BudgetsImage from "../../assets/budget.png";
 import StatisticsImage from "../../assets/statistics.png";
 import AccountsImage from "../../assets/accounts.png";
@@ -28,6 +29,12 @@ function Sidebar() {
           <Link to="/" className="sidebar-link">
             <img src={HomeImage} className="m-2"></img>
             <div className="m-2">Home</div>
+          </Link>
+        </li>
+        <li className="sidebar-item">
+          <Link to="/" className="sidebar-link">
+            <img src={SettingsImage} className="m-2"></img>
+            <div className="m-2">Settings</div>
           </Link>
         </li>
         <li className="sidebar-item">
