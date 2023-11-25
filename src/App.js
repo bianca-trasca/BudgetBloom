@@ -1,6 +1,17 @@
+// CSS
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home page/Home";
+
+// COMPONENTS
+import Navbar from "./components/Navbar/Navbar";
+import Sidebar from "./components/Sidebar/Sidebar";
+
+// PAGES
+import Home from "./pages/Home/Home";
+import Budgets from "./pages/Budgets/Budgets";
+import Statistics from "./pages/Statistics/Statistics";
+import Accounts from "./pages/Accounts/Accounts";
+
+// OTHER
 import {
   BrowserRouter as Router,
   Route,
@@ -12,10 +23,16 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" exact Component={Home} />
-        </Routes>
+        <Sidebar />
+        <div className="contentContainer">
+          {/* <Navbar /> */}
+          <Routes>
+            <Route path="/" exact Component={Home} />
+            <Route path="/Budgets" exact Component={Budgets} />
+            <Route path="/Statistics" exact Component={Statistics} />
+            <Route path="/Accounts" exact Component={Accounts} />
+          </Routes>
+        </div>
       </Router>
     </div>
   );
