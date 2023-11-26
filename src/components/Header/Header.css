@@ -1,0 +1,68 @@
+.header {
+  width: auto;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.badge-container {
+  width: 15rem;
+  height: 4rem;
+  background-color: #f6e9e6;
+  border-radius: 1cap;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-style: groove;
+}
+
+.transparent-button {
+  background-color: inherit;
+  margin: auto;
+  border: 0;
+}
+
+.arrow {
+  width: 20px;
+  height: 30px;
+  margin: auto;
+}
+
+.down-arrow {
+  width: 20px;
+  height: 15px;
+  margin: auto;
+  margin-left: 5px;
+}
+
+.badge-text {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.unassigned-money-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.value-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.assign-button {
+  width: 85px;
+  height: 30px;
+  background-color: #f6e9e6;
+  border-radius: 1cap;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-style: groove;
+}
